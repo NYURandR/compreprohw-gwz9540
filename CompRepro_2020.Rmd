@@ -5,9 +5,8 @@ date: "10/14/2020"
 output: html_document
 ---
 
-```{r setup, include=TRUE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
+
 
 ## R Markdown file
 
@@ -25,8 +24,15 @@ To add a chunk either click on the green Insert button and choose R or hit Comma
 
 2) Please describe one of the ways that Wilson et. al. suggest is a good practice for computational reproducibility and how a tool like R can be used. Write your answer below.
 
+Wilson suggests that a good practice is to create analysis friendly data. This includes tidying up your data with such things as making each column a variable, and each row an observation. 
 
-3) Add a code chunk and find the square root of 4 to the 13th power. If you are unsure of what command to use, google it. 
+
+3) Add a code chunk and find the square root of 4 to the 13th power. If you are unsure of what command to use, google it.
+
+```{r}
+sqrt(4)^13
+```
+
 
 
 4) Push this homework to the GitHub repository for the homework. 
